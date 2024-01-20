@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kraft Technologies Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-8">
+
+    <!-- Registration Form Header -->
+    <h1 class="text-3xl font-bold mb-4">Registration Form</h1>
+    <p class="text-gray-600 mb-8">Please fill out this form with the required information</p>
+
+    <!-- Registration Form -->
+    <form action="https://register-demo.freecodecamp.org" method="post" class="max-w-md bg-white p-6 rounded-md shadow-md">
+
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend class="text-lg font-semibold mb-4">Personal Information</legend>
+            
+            <!-- First Name Input -->
+            <label for="first-name" class="block mb-2">Enter Your First Name:
+                <input name="first-name" type="text" id="first-name" required class="block w-full mt-1 p-2 border rounded-md">
+            </label>
+            
+            <!-- Last Name Input -->
+            <label for="last-name" class="block mb-2">Enter Your Last Name:
+                <input name="last-name" type="text" id="last-name" required class="block w-full mt-1 p-2 border rounded-md">
+            </label>
+            
+            <!-- Email Input -->
+            <label for="email" class="block mb-2">Enter Your Email:
+                <input name="email" type="email" id="email" required class="block w-full mt-1 p-2 border rounded-md">
+            </label>
+            
+            <!-- Password Input -->
+            <label for="new-password" class="block mb-2">Create a New Password:
+                <input name="password" type="password" id="new-password" required pattern="[a-z0-5]{8,}" class="block w-full mt-1 p-2 border rounded-md">
+            </label>
+        </fieldset>
+
+        <!-- Account Type Section -->
+        <fieldset class="mt-6">
+            <legend class="text-lg font-semibold mb-4">Account Type (required)</legend>
+            
+            <!-- Personal Account Radio -->
+            <label for="personal-account" class="inline-flex items-center">
+                <input id="personal-account" type="radio" name="account-type" checked class="form-radio">
+                <span class="ml-2">Personal</span>
+            </label>
+            
+            <!-- Business Account Radio -->
+            <label for="business-account" class="inline-flex items-center ml-6">
+                <input id="business-account" type="radio" name="account-type" class="form-radio">
+                <span class="ml-2">Business</span>
+            </label>
+        </fieldset>
+
+        <!-- Profile Picture Section -->
+        <fieldset class="mt-6">
+            <label for="profile-picture" class="block mb-2">Upload a profile picture:
+                <input name="profile-picture" id="profile-picture" type="file" class="block mt-1 p-2 border rounded-md">
+            </label>
+        </fieldset>
+
+        <!-- Terms and Conditions Section -->
+        <label for="terms-and-conditions" class="block mt-6">
+            <input class="mr-2" name="terms" id="terms-and-conditions" type="checkbox" required>
+            I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" class="text-blue-500">terms-and-conditions</a>
+        </label>
+
+        <!-- Submit Button -->
+        <input value="Submit" type="Submit" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md cursor-pointer">
+
+        <!-- Additional Information Section -->
+        <fieldset class="mt-6">
+            <legend class="text-lg font-semibold mb-4">Additional Information</legend>
+            
+            <!-- Age Input -->
+            <label for="age" class="block mb-2">Input your age (years):
+                <input name="age" id="age" type="number" min="13" max="120" required class="block w-full mt-1 p-2 border rounded-md">
+            </label>
+            
+            <!-- Referrer Selection -->
+            <label for="referrer" class="block mb-2">How did you hear about us?
+                <select name="referrer" id="referrer" class="block w-full mt-1 p-2 border rounded-md">
+                    <option value="">(select one)</option>
+                    <option value="1">freeCodeCamp News</option>
+                    <option value="2">freeCodeCamp YouTube Channel</option>
+                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            
+            <!-- Bio Textarea -->
+            <label for="bio" class="block mb-2">Provide a bio:
+                <textarea name="bio" id="bio" rows="3" cols="30" placeholder="I like coding deep in the night..." class="block w-full mt-1 p-2 border rounded-md"></textarea>
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
