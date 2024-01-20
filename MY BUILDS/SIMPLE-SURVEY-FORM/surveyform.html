@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  
+  <p id="description">Please fill out the survey form below:</p>
+  
+  <form id="survey-form">
+    <!-- Name Input -->
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+    <!-- Email Input -->
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+    <!-- Phone Number Input with Country Code -->
+    <label for="phone" id="phone-label">Phone Number:</label>
+    <div style="position: relative;">
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+    <span id="phone-icon">&#9742;</span> <!-- Phone icon for visual enhancement -->
+    </div>
+
+    
+    <!-- How did you hear about us? Dropdown -->
+    <label for="hear-about">How did you hear about us?</label>
+        <select id="hear-about" name="hear-about" required>
+            <option value="facebook">Facebook</option>
+            <option value="twitter">Twitter</option>
+            <option value="instagram">Instagram</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="youtube">YouTube</option>
+        </select>
+
+    
+    <!-- Gender Radio Buttons -->
+<label>Gender:</label>
+<div class="radio-container">
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label>
+
+  <input type="radio" id="prefer-not-to-say" name="gender" value="prefer-not-to-say" required>
+  <label for="prefer-not-to-say">Prefer not to say</label>
+</div>
+
+    
+    <!-- Which platform do you use? Checkboxes -->
+    <label>Which platform do you use?</label>
+        <input type="checkbox" id="windows" name="platform" value="windows">
+    <label for="windows">Windows</label>
+
+        <input type="checkbox" id="macos" name="platform" value="macos">
+    <label for="macos">macOS</label>
+
+        <input type="checkbox" id="linux" name="platform" value="linux">
+    <label for="linux">Linux</label>
+
+    <input type="checkbox" id="android" name="platform" value="android">
+    <label for="android">Android</label>
+
+    <input type="checkbox" id="ios" name="platform" value="ios">
+    <label for="ios">iOS</label>
+
+    
+    <!-- Textarea -->
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" rows="4" placeholder="Enter your comments"></textarea>
+    
+    <!-- Submit Button -->
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
