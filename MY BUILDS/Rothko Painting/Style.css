@@ -17,6 +17,7 @@
     margin: 20px auto;
     overflow: hidden;
     box-shadow:0 0 3px 3px #efb762;
+    border-radius:9px;
   }
   .two{
     width: 475px;
@@ -24,6 +25,10 @@
     background-color: #8f0401;
     margin:0 auto 20px;
     box-shadow:0 0 3px 3px #8f0401;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   .three{
     width:91%;
@@ -32,6 +37,10 @@
     margin:auto;
     filter:blur(2px);
     box-shadow:0 0 5px 5px #b20403;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 12px;
   }
   .one, .two{
     filter:blur(1px);
