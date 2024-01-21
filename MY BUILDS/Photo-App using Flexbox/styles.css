@@ -7,3 +7,4 @@
     padding:5px;
     border:5px solid blue;
   }
+  *{box-sizing: content-box;}
