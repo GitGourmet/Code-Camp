@@ -6,6 +6,7 @@
     max-width: 350px;
     height: 300px;
     object-fit: cover;
+    border-radius: 16px;
   }
   body{
     margin:0;
