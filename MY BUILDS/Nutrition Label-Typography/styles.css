@@ -19,6 +19,8 @@ body{
 
   p{
     margin: 0;
+    display:flex;
+    justify-content:space-between;
   }
   .divider {
     border-bottom: 1px solid #888989;
