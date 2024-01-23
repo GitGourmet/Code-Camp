@@ -1,89 +1,118 @@
-body{
-    font-family:"Open Sans", sans-serif;
-  }
-  html{
-    font-size: 16px;
-  }
-  .label {
-    border: 2px solid black;
-    width: 270px;
-    margin:20px auto;
-    padding:0 7px;
-  }
-  *{box-sizing: border-box;}
-  header h1{
-    text-align: center;
-    margin: -4px 0;
-    letter-spacing: 0.15px;
-  }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
-  p{
-    margin: 0;
-    display:flex;
-    justify-content:space-between;
-  }
-  .divider {
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
-  }
+html {
+  font-size: 16px;
+}
 
-  .bold{
-    font-weight: 800;
-  }
+/* Nutrition Label Styling */
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
 
-  .large{
-    height:10px;
-    }
-  .large, .medium{
-    background-color:black;
-    border:0;
-  }
+/* Box Sizing */
+* {
+  box-sizing: border-box;
+}
 
-  .small-text{
-    font-size: 0.85rem;
-  }
-  .calories-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    }
+/* Header Styles */
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
 
-  .calories-info h2{
-    margin:0;
-  }
-  .left-container p{
-    margin:-5px -2px;
-    font-size:2em;
-    font-weight:700;
-  }
-  .calories-info span{
-    font-size:2.4em;
-    font-weight:700;
-    font-weight: 700;
-    margin:-7px -2px;
-  }
-  .medium{
-    height:5px;
-  }
-  .right{
-    justify-content:flex-end;
-  }
+/* Paragraph Styles */
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .indent{
-    margin-left: 1em;
-  }
+/* Divider Styles */
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
 
-  .daily-value p:not(.no-divider){
-    border-bottom:1px solid #888989;
-  }
+/* Bold Text Styles */
+.bold {
+  font-weight: 800;
+}
 
-  .double-indent{
-    margin-left: 2em;
-  }
+/* Large Divider Styles */
+.large {
+  height: 10px;
+}
 
-  .note{
-    font-size:0.6rem;
-    margin:5px 0;
-    padding:0 8px;
-    text-indent:-8px;
-  }
+/* Large and Medium Divider Styles */
+.large,
+.medium {
+  background-color: black;
+  border: 0;
+}
+
+/* Small Text Styles */
+.small-text {
+  font-size: 0.85rem;
+}
+
+/* Calories Info Section Styles */
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.calories-info h2 {
+  margin: 0;
+}
+
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.calories-info span {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin: -7px -2px;
+}
+
+/* Medium Divider Styles */
+.medium {
+  height: 5px;
+}
+
+/* Right Alignment Styles */
+.right {
+  justify-content: flex-end;
+}
+
+/* Indentation Styles */
+.indent {
+  margin-left: 1em;
+}
+
+/* Daily Value Paragraph Styles */
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
+/* Double Indentation Styles */
+.double-indent {
+  margin-left: 2em;
+}
+
+/* Note Section Styles */
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent: -8px;
+}
