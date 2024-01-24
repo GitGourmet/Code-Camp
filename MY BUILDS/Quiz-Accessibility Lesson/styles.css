@@ -9,4 +9,8 @@ header{
     width:100%;
     background-color:#1b1b32;
     display:flex;
-  }
+}
+h1{
+    color:#f1be32;
+    font-size:min(5vw, 1.2em);
+}
