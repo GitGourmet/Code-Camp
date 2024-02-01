@@ -26,7 +26,13 @@ body {
   h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align:center;
+  
   }
+  main{
+    padding-top:40px;
+  }
+  
   
   nav {
     width: 50%;
