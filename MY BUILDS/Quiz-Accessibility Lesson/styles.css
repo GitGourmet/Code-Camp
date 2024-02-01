@@ -58,4 +58,12 @@ body {
     white-space: nowrap;
     border: 0;
   }
-  
+  nav li{
+    color: #dfdfe2;
+margin: 0 0.2rem;
+padding: 0.2rem;
+display: block;
+  }
+  li>a{
+    color:#dfdfe2;
+  }
