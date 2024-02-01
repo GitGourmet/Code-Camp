@@ -115,11 +115,18 @@ p::before {
 input{
   font-size:30px;
 }
-.info{
-  width:50%;
+.info label{
+  display:inline-block;
+  text-align:right;
+
+}
+
+.info input {
+  width: 50%;
   text-align: left;
 }
-.info label{
-  width:10%;
-  min-width:55px;
+
+.info label {
+  width: 10%;
+  min-width: 55px;
 }
