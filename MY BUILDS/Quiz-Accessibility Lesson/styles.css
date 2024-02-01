@@ -79,6 +79,10 @@ display: block;
     color:#1b1b32;
     background-color:#dfdfe2;
     cursor:pointer;
+    flex-wrap:wrap;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
   }
   li > a {
     color: inherit;
