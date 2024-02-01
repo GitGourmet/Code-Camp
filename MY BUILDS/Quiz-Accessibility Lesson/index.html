@@ -25,35 +25,36 @@
           <h2 id="student-info">Student Info</h2>
           <div class="info">
             <label for="student-name">Name:</label>
-            <input id="student-name" type="text" name="student-name" placeholder="e.g. John Doe"/>
+            <input type="text" name="student-name" id="student-name" />
           </div>
           <div class="info">
             <label for="student-email">Email:</label>
-            <input id="student-email" type="email" name="student-email"/>
+            <input type="email" name="student-email" id="student-email" />
           </div>
           <div class="info">
-            <label for="birth-date">
-              D.O.B.:<span class="sr-only">(Date of Birth)</span>
-            </label>
-            <input id="birth-date" type="date" name="birth-date"/>
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
           </div>
         </section>
         <section role="region" aria-labelledby="html-questions">
           <h2 id="html-questions">HTML</h2>
           <div class="question-block">
             <p>1</p>
-            <fieldset class="question" name="Question-1">
-              <legend>Is html a markup language?</legend>
+            <fieldset class="question" name="html-question-one">
+              <legend>
+                The legend element represents a caption for the content of its
+                parent fieldset element
+              </legend>
               <ul class="answers-list">
                 <li>
                   <label for="q1-a1">
-                    <input type="radio" id="q1-a1" value="true" name="html-question-one" />
+                    <input type="radio" id="q1-a1" name="q1" value="true" />
                     True
                   </label>
                 </li>
                 <li>
                   <label for="q1-a2">
-                    <input type="radio" id="q1-a2" value="false" name="html-question-one" />
+                    <input type="radio" id="q1-a2" name="q1" value="false" />
                     False
                   </label>
                 </li>
@@ -70,13 +71,13 @@
               <ul class="answers-list">
                 <li>
                   <label for="q2-a1">
-                    <input type="radio" id="q2-a1" value="true" name="html-question-two" />
+                    <input type="radio" id="q2-a1" name="q2" value="true" />
                     True
                   </label>
                 </li>
                 <li>
                   <label for="q2-a2">
-                    <input type="radio" id="q2-a2" value="false" name="html-question-two" />
+                    <input type="radio" id="q2-a2" name="q2" value="false" />
                     False
                   </label>
                 </li>
@@ -84,37 +85,37 @@
             </fieldset>
           </div>
         </section>
-
         <section role="region" aria-labelledby="css-questions">
           <h2 id="css-questions">CSS</h2>
           <div class="formrow">
             <div class="question-block">
-              <label for="css-questions">Can the CSS margin property accept negative values?</label>
+              <label for="selector">Can the CSS margin property accept negative values?</label>
             </div>
             <div class="answer">
-              <select required name="css-questions" id="css-questions">
+              <select name="selector" id="selector" required>
                 <option value="">Select an option</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
               </select>
             </div>
             <div class="question-block">
-              <label>Do you have any questions:</label>
+              <label for="css-textarea">Do you have any questions:</label>
             </div>
-            <div>
-              <textarea id="answers" name="answers" placeholder="Is css a programming language?" rows="5" cols="48"></textarea>
+            <div class="answer">
+              <textarea id="css-textarea" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
             </div>
-            <div class="answer"></div>
+          </div>
         </section>
-        <button type="submit">send</button>
+        <button type="submit">Send</button>
       </form>
     </main>
     <footer>
       <address>
-        <a href="https://www.linkedin.com/in/lucky-kamuti/">LuckyKamuti</a><br />
-        Ruaraka<br />
-        Nairobi<br />
-        Kenya</address>
+        <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+        San Francisco<br />
+        California<br />
+        USA
+      </address>
     </footer>
   </body>
 </html>

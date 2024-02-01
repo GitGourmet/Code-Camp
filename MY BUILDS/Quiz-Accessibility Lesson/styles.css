@@ -54,6 +54,12 @@ body {
     margin-top: 0;
     padding-top: 60px;
   }
+  .birth-date{
+    padding-right:0;
+    padding-bottom:0;
+    padding-top:5;
+    padding-left:5;
+  }
 
   p::before {
     content: "Question #";
@@ -97,4 +103,5 @@ body {
     margin-left:auto;
     max-width:600px
   }
+  
   
