@@ -38,6 +38,18 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  padding:20px 10px;
+  max-width:1400px;
+  margin:0 auto;
+  gap:16px;
+}
+.gallery::after{
+  content: "";
+  width: 350px;
+
 }
 
 .column {
