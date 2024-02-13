@@ -103,8 +103,12 @@ li {
   }
 
   #image {
-    width: 150px;
+    width: 100%;
+    max-width: 100%; /* Adding this line */
+    border-radius: 50%;
+    margin-right: 20px;
   }
+  
 }
 
 @media (max-width: 480px) {
