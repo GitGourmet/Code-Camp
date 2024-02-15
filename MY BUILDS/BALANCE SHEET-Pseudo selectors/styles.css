@@ -51,7 +51,7 @@ html {
     text-align: right;
   }
   .table-wrap {
-    padding: 0 0.75rem 1.5rem 0.75rem;
+    padding: 0 0.75rem 1.5rems 0.75rem;
   }
   span {
     font-weight: normal;
@@ -70,6 +70,18 @@ html {
     position: absolute;
     top: -2.25rem;
     left: 0.5rem;
+  } 
+  tbody td {
+    width: 100vw;
+    min-width: 4rem;
+    max-width: 4rem;
+  }
+  tbody th {
+    width: calc(100% - 12rem);
+  } 
+  tr[class="total"] {
+    border-bottom: 4px double #0a0a23;
+    font-weight: bold;
   }  
   
   
