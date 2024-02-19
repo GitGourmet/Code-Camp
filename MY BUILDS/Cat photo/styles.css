@@ -14,4 +14,12 @@ body{
     top: 50px; /* Set to any pixel value you desire */
     left: 50px; /* Set to any pixel value you desire */
   }
+  .box {
+    width: 200px;
+    height: 600px;
+    background-color: #000;
+    position: absolute;
+    top: 800px;
+    left: 650px;
+  }
   
