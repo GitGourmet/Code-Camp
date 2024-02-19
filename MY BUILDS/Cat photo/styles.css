@@ -10,8 +10,8 @@ body{
     border: 1px solid #000;
     border-radius: 46%;
     background: linear-gradient(to bottom, #5e5e5e 85%, #45454f 100%);
-    position: relative;
-    top: 100px; /* This will move the element down by 100 pixels relative to its normal position */
-    left: 100px; /* This will move the element right by 100 pixels relative to its normal position */
+    position: absolute;
+    top: 50px; /* Set to any pixel value you desire */
+    left: 50px; /* Set to any pixel value you desire */
   }
   
