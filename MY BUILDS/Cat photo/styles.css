@@ -15,4 +15,30 @@ body{
     left: 0;
     right: 0;
     margin: auto;
+  } 
+  .cat-left-ear {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    transform: rotate(-45deg);
+  }  
+  .cat-right-ear {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    position: absolute;
+    top: -26px;
+    left: 163px;
+    transform: rotate(45deg);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
   }  
